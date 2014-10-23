@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regitry>
+	<application id = "/test" serviceId = "SERVICE_ID" isDebug = "true">
+	
+	<subModules>
+		<module fileName = "registry_helloworld.xml"/>
+		<module fileName = "registry_resume.xml"/>
+	</subModules>
+	</application>
+</regitry>

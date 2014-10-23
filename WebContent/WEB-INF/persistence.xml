@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+	<!-- vandor: dataSource唯一标识， 如果vender为DEV时，此时的配置是采用直连的方式，而不是数据源的方式 -->
+	<dataSource vandor = "DEV">
+		<!-- 指定应用服务器的上下文工厂,当vender为DEV时，指定Driver -->
+		<contextFactory value = "oracle.jdbc.driver.OracleDriver"/>
+		<!-- DataSource的JNDI名称,只有vender不是DEV时，指定才有效 -->
+		<jndiName value = ""/>
+		<userName value = "sjp"/>
+		<password value = "sjp"/>
+		<url value = "jdbc:oracle:thin:@localhost:1521:orcl"/>
+	</dataSource>
+</persistence>
